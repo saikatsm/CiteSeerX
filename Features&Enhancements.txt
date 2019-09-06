@@ -1,0 +1,9 @@
+ADCT(Automated DataCuration Tool) design plan:
+
+Feature Inclusion:
+1. Introduction of Abstract datatypes person, date, etc.
+2. Text content processing with abstract datatypes, using parseAs feature.
+3. Introduction and design pf parseAs feature.
+4. Curate Action to incorporate remove token and render feature. Render feature to include render as flag which would specify the class/type of the target value.
+5. [d:16]Enahancing parseAs feature to include regular expression based parsing and then storing it in array or map as iterable and accessing values as keys or indexes.
+6. [d:23] filter list is a representation of OR utility. Individual filter shall represent AND operator when multiple filter field or values included(TBD). NOT operator feature to be written seperately(TBD). // Enhancement for updated implementation.

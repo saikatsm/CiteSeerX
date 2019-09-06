@@ -1,0 +1,6 @@
+ADCT(Automated DataCuration Tool) design plan:
+Reports and Logs:
+Release version: 4.0. Release Date: 03/04/2019.
+Action Items:
+1. Analysis and Enhancement logging feature.
+2. [d:25] Logic File mismatch error to be intimated in user understandable format instead java error. Reference Case, when utility is run with -h option logic file has to be .csv and not .json and for run option -c logic file specified in properties file should be .json instead .csv. Parameter vaidity to be checked in the program itself and subsequent explanatory error messeges to be thrown before execution initiation.

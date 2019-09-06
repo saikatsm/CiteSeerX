@@ -1,0 +1,5 @@
+ADCT(Automated DataCuration Tool) design plan:
+Integration&Support List of existing components:
+Release version: 4.0. Release Date: 03/04/2019.
+Action Items:
+1. 

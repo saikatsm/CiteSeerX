@@ -1,0 +1,6 @@
+ADCT(Automated DataCuration Tool) Phase2 Release Log:
+Release version: 4.0. Release Date : 04/03/2019.
+Action Items:
+1. Independent write over field value jsonkey combination.
+2. Curation action definition till jsonkey level.
+3. Possible optimization applying zip file processing.

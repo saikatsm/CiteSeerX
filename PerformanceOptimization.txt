@@ -1,0 +1,5 @@
+ADCT(Automated DataCuration Tool) design plan:
+Performance Optimization Features List:
+Release version: 4.0. Release Date: 03/04/2019.
+Action Items:
+1. Implementation of zipped processing of Data Items.

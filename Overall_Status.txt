@@ -1,0 +1,24 @@
+ADCT(Automated DataCuration Tool) design plan:
+
+Feature Inclusion:
+
+
+
+
+
+
+
+Integration of existing components:
+
+
+
+
+
+
+Reports and Logs:
+
+
+
+
+
+Performance Optimization:

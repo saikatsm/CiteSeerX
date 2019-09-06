@@ -1,0 +1,109 @@
+{  
+  "dc.idenfier.other": {
+    "action": [
+      "curate"
+    ]
+  },
+  "dc.description": {
+    "action": [
+      "useMap",
+      "moveField",
+      "copyData"
+    ],
+    "useMap": {
+      "loadFile": true,
+      "fileName": "fieldTranslation.csv"
+    },
+    "copyData": {
+       "targetField": "dc.identifier.citation"
+    }
+  },
+  "dc.publisher.institution": {
+    "action": [
+      "lookup",
+      "useMap",
+      "copyData"
+    ],
+    "useMap": {
+      "loadFile": true,
+      "fileName": "fieldTranslation.csv"
+    },
+    "copyData": {
+      "targetField": "dc.publisher.institution"
+    }
+  },
+  "dc.contributor.author": {
+    "action": [
+      "useMap",
+      "moveField",
+      "copyData"
+    ],
+    "useMap": {
+      "loadFile": true,
+      "fileName": "fieldTranslation.csv"
+    },
+    "copyData": {
+      "targetField": "dc.contributor.author"
+    }
+  },
+  "dc.title": {
+    "action": [
+      "curate"
+    ]
+  },
+  "dc.subject": {
+    "action": [
+      "curate"
+    ]
+  },
+  "dc.description.abstract": {
+    "action": [
+      "lookup",
+      "copyData"
+    ],
+    "copyData": {
+      "targetField": "dc.description.abstract"
+    }
+  },
+  "dc.date.issued": {
+    "action": [
+      "curate"
+    ],
+    "curate": {
+      "targetField":"dc.publisher.date"
+    }
+  },
+  "dc.description.uri": {
+    "action": [
+      "curate"
+    ]
+  },
+  "lrmi.learningResourceType": {
+    "action": [
+      "useMap",
+      "copyData"
+    ],
+    "useMap": {
+      "loadFile": true,
+      "fileName": "fieldTranslation.csv"
+    },
+    "copyData": {
+      "targetField": "lrmi.learningResourceType"
+    }
+  },
+  "dc.description.uri": {
+    "action": [
+      "deleteField"
+    ]
+  },
+  "dc.identifier.citation": {
+    "action": [
+      "deleteField"
+    ]
+  },
+  "lrmi.educationalAlignment.difficultyLevel": {
+    "action": [
+      "deleteField"
+    ]
+  }
+}
